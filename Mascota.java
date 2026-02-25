@@ -90,5 +90,11 @@ public Mascota(short ID, String NMascota, String EMascota, short FNMascota, Stri
         this.CPMascota = CPMascota;
         this.Vacunado = Vacunado;
     }
-
+public String getNMascota(){ return NMascota; }
+public boolean isVacunado(){ return Vacunado; }
+public String getEMascota(){ return EMascota; }
+public float getPMascota(){ return PMascota; }
+public String getCPMascota(){ return CPMascota; }
+public String getSaludMascota(){ return SaludMascota; }
 }
+
